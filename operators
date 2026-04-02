@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>
+            Operators
+        </title>
+    </head>
+    <body>
+        <h1>
+            OPERATORS
+        </h1>
+        <p id="p3">hello</p>
+        <script>
+            var x, y, z; // Statement
+            x=54;
+            y=100;
+            z=y-x;
+            document.getElementById("p3").innerHTML="The difference is "+z
+        </script>
+    </body>
+</html>
