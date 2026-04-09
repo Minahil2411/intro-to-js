@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Operators
+        </title>
+    </head>
+    <body>
+        <h1>
+            OPERATORS
+        </h1>
+        <p id="p3">hello</p>
+        <p id="p2">hello</p>
+        <p id="p1">hello</p>
+        <p id="p0">hello</p>
+        <script>
+            var x, y, z, a, b, c; // Statement
+            x=5;
+            y=100;
+            z=y-x;
+            a=x+y;
+            b=x*y;
+            c=y/x;
+            document.getElementById("p3").innerHTML="The difference is "+z
+            document.getElementById("p2").innerHTML="The sum is "+a
+            document.getElementById("p1").innerHTML="The product is "+b
+            document.getElementById("p0").innerHTML="The quotient is "+c
+        </script>
+    </body>
+</html>
